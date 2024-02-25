@@ -16,6 +16,10 @@
 		2B487C032B3C28930089217F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B487C022B3C28930089217F /* RecommendViewController.swift */; };
 		2B487C052B3C28D90089217F /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B487C042B3C28D90089217F /* SaveViewController.swift */; };
 		2B487C072B3C441E0089217F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B487C062B3C441E0089217F /* RegisterViewController.swift */; };
+		2B6B02DD2B8BB707005DF129 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B02DC2B8BB707005DF129 /* LogInViewController.swift */; };
+		2B6B02DF2B8BB824005DF129 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B02DE2B8BB824005DF129 /* LogInView.swift */; };
+		2B6B02E12B8BBB56005DF129 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B02E02B8BBB56005DF129 /* LogInViewModel.swift */; };
+		2B6B02E32B8BBB73005DF129 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B02E22B8BBB73005DF129 /* Observable.swift */; };
 		2B855F4F2B65279A004B0726 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B855F4E2B65279A004B0726 /* UIImageView + Extension.swift */; };
 		2B855F512B6566B6004B0726 /* UILable + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B855F502B6566B6004B0726 /* UILable + Extension.swift */; };
 		2BDF644B2B64B98E00F0B129 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDF644A2B64B98E00F0B129 /* LoadViewController.swift */; };
@@ -39,6 +43,10 @@
 		2B487C022B3C28930089217F /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		2B487C042B3C28D90089217F /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 		2B487C062B3C441E0089217F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2B6B02DC2B8BB707005DF129 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		2B6B02DE2B8BB824005DF129 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		2B6B02E02B8BBB56005DF129 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		2B6B02E22B8BBB73005DF129 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		2B855F4E2B65279A004B0726 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		2B855F502B6566B6004B0726 /* UILable + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILable + Extension.swift"; sourceTree = "<group>"; };
 		2BDF644A2B64B98E00F0B129 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				2BDF64572B6521B600F0B129 /* Enumeration.swift */,
 				2B855F4E2B65279A004B0726 /* UIImageView + Extension.swift */,
 				2B855F502B6566B6004B0726 /* UILable + Extension.swift */,
+				2B6B02DE2B8BB824005DF129 /* LogInView.swift */,
+				2B6B02DC2B8BB707005DF129 /* LogInViewController.swift */,
+				2B6B02E02B8BBB56005DF129 /* LogInViewModel.swift */,
+				2B6B02E22B8BBB73005DF129 /* Observable.swift */,
 			);
 			path = CodeBase;
 			sourceTree = "<group>";
@@ -191,12 +203,16 @@
 				2BDF644B2B64B98E00F0B129 /* LoadViewController.swift in Sources */,
 				2B487BE92B3ADE0A0089217F /* AppDelegate.swift in Sources */,
 				2BDF64522B64D21800F0B129 /* SearchViewController.swift in Sources */,
+				2B6B02E12B8BBB56005DF129 /* LogInViewModel.swift in Sources */,
 				2BDF64562B65117300F0B129 /* SaveContentViewController.swift in Sources */,
 				2B487C052B3C28D90089217F /* SaveViewController.swift in Sources */,
 				2B487BEB2B3ADE0A0089217F /* SceneDelegate.swift in Sources */,
 				2BDF64542B64D56B00F0B129 /* UIButton + Extension.swift in Sources */,
 				2B487C072B3C441E0089217F /* RegisterViewController.swift in Sources */,
 				2BDF64582B6521B600F0B129 /* Enumeration.swift in Sources */,
+				2B6B02DF2B8BB824005DF129 /* LogInView.swift in Sources */,
+				2B6B02E32B8BBB73005DF129 /* Observable.swift in Sources */,
+				2B6B02DD2B8BB707005DF129 /* LogInViewController.swift in Sources */,
 				2B855F512B6566B6004B0726 /* UILable + Extension.swift in Sources */,
 				2B487C012B3C28770089217F /* MainViewController.swift in Sources */,
 				2B487C032B3C28930089217F /* RecommendViewController.swift in Sources */,
